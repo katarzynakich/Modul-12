@@ -1,0 +1,48 @@
+body {
+	background: black;
+}
+.container {
+	width: 900px;
+	max-width: 900px;
+	margin: 50px auto;
+	position: relative;
+	
+}
+p {
+	margin-top: 70px;
+	text-align: center;
+	font-family: 'Bowlby One';
+	font-size: 30px;
+	color: white;
+}
+.picture {
+	width: 900px;
+	max-width: 900px;
+	position: relative;
+	height: 300px;
+	margin: 0 auto;
+}
+img {
+	position: absolute;
+	width: 400px;
+	height: auto;
+	left: 50%;
+	transform:translateX(-50%);	
+	margin-top: 20px;
+}
+.btn {
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	transform:translateX(-50%);	
+	text-transform: uppercase;
+	font-weight: bold;
+	outline-style: none;
+}
+.btn:hover {
+	background: #717171;
+	color: white;
+}
+.btn:focus {
+	outline-style: none;
+}
