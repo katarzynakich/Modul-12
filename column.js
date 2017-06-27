@@ -34,14 +34,15 @@ function Column(id, name) {
 				}
 			});
 			
-			// KONSTRUOWANIE ELEMENTU KOLUMNY
+			
+		}
+		);
+		// KONSTRUOWANIE ELEMENTU KOLUMNY
 		column.append(columnTitle)
 			.append(columnDelete)
 			.append(columnAddCard)
 			.append(columnCardList);
 			return column;
-		}
-		);
 	}
 }
 Column.prototype = {
